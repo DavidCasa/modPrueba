@@ -1,0 +1,8 @@
+ def hello():
+	print("David Casa")
+
+	
+from tkinter import *
+tk = Tk()
+btn = Button(tk, text="David Casa", command= hello)
+btn.pack()
