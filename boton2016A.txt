@@ -6,3 +6,12 @@ from tkinter import *
 tk = Tk()
 btn = Button(tk, text="David Casa", command= hello)
 btn.pack()
+
+
+ def hello():
+	print("Fernanda Córdova")
+
+from tkinter import *
+tk = Tk()
+btn = Button(tk, text="Fernanda Córdova", command= hello)
+btn.pack()
